@@ -1,0 +1,3 @@
+# Hands-on: lecture_002
+
+We have taken a quick overview of the CUDA built-in variables that enable us to track the data each kernel instance processes. To further understand these variables, blurring an RGB image is an excellent exercise. This exercise requires computing a value for each pixel—specifically, calculating the mean of the surrounding pixels. This approach necessitates carefully validating the total number of pixels involved in the computation, as boundary conditions may reduce the number of available pixels.
